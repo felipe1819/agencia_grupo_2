@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Newsletter</title>
+		<meta charset='iso-88959-1'/>
+		
+	</head>
+	<body>
+		
+		<h2>Cadastre-se e recebe em primeira mão todas as nossas promoções</h2>
+		<fieldset>
+			<legend>Campos:</legend>
+				<form name="form1" method="post" action="">
+					Título:
+					<select name="tiulo">
+						<option value="01">Sr.</option>
+						<option value="02">Sra.</option>
+						<option value="03">Srta.</option>
+					</select><br/>
+					Nome: <input type="text" name="txtNome" value=""/> <br/>
+					Sobrenome: <input type="text" name="txtsobre" value=""/> <br/>
+					E-mail: <input type="email" name="txtemail" value=""/> <br/>
+					Data de nascimento: <input type="date" name="txtnasc" min="1920-01-01" max="1998-12-31" value=""/> <br/>
+					
+					<input type="submit" value="Enviar"/>
+					<input type="reset" value="Cancelar"/>
+				</form>
+		</fieldset>
+	</body>
+</html>
